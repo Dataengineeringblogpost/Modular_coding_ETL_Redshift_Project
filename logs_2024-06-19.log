@@ -1,0 +1,9 @@
+2024-06-19 10:40:22,187 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-06-19 10:40:22,430 - INFO - Extracting data from S3 bucket: flipkartdata2521, file: Flipkart_data.csv
+2024-06-19 10:40:27,739 - INFO - Data extraction completed
+2024-06-19 10:40:27,759 - INFO - Raw data saved to artifacts\raw_data.csv
+2024-06-19 10:40:27,759 - INFO - Starting data transformation
+2024-06-19 10:40:27,810 - INFO - Data transformation completed
+2024-06-19 10:40:27,824 - INFO - Transformed data saved to artifacts\transformed_data.csv
+2024-06-19 10:40:27,824 - INFO - Loading data into Redshift table: flipkart_data
+2024-06-19 10:40:57,618 - INFO - Data loaded successfully into Redshift
